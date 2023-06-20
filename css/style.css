@@ -1,0 +1,81 @@
+*{margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+ul,li{
+ list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto; 
+
+}
+.header{
+    background: url(../image/Waxom-Hemepage.jpg); 
+ height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-position: center;
+}
+.logo{
+    width: 240px;
+    float: left;
+    padding-top:25px ;
+    padding-left: 100px;
+}
+.menu{
+    width: 800px;
+    float: left;
+    text-align: right;
+    padding-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    line-height: 90px;
+    padding: 0 15px;
+}
+.text{
+    height:600px;
+    width: 1400px;
+    margin: 200px auto;
+}
+.text-1{
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px 350px;
+}
+.text-2{
+    color: rgb(214, 139, 139);
+    font-size: 80px;
+    padding: 20px 300px;
+    font-weight: 900;
+    padding: 10px 200px;
+}
+.text-3{
+    color: rgb(158, 138, 138);
+    font-size: 20px;
+    padding: 30px 198px;
+    text-align: center;
+}
+.button{
+    height: 56px;
+    width: 170px;
+    background: rgb(2, 36, 36);
+border-radius:20px;
+margin: 0 auto;
+
+}
+.button-2{
+    text-align: center;
+    padding: 20px 0;
+    color: aqua;
+}
